@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #171717;
+  background: #fafafa;
+  font-family:
+    "Noto Sans JP",
+    "Hiragino Sans",
+    "Yu Gothic UI",
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+input[type="radio"] {
+  accent-color: rgb(16 185 129);
+}
+
+input[type="number"]:disabled,
+button:disabled {
+  cursor: not-allowed;
+}

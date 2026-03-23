@@ -19,16 +19,6 @@ npm run build
 
 ## 公開しやすい方法
 
-### 0. GitHub Pages
-
-このリポジトリには GitHub Pages 用の Actions デプロイ設定が入っています。
-
-1. GitHub に新しい公開リポジトリを作成
-2. このフォルダをそのリポジトリへ push
-3. GitHub の `Settings` → `Pages` を開く
-4. `Source` を `GitHub Actions` にする
-5. `main` ブランチへ push すると自動で公開される
-
 ### 1. Vercel
 
 1. GitHub にこのフォルダを push
